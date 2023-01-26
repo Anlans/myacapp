@@ -3,4 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("My first web page.")
+    line1 = '<h1 style="text-align: center">My first web page.</h1>'
+    return HttpResponse(line1)
